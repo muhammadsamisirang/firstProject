@@ -8,6 +8,8 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 
 .container {
@@ -28,8 +30,8 @@ justify-content: space-between;
 border-bottom: 1px solid #fff;
 z-index: 999;
 /* position: fixed;
-top:0; */
 
+top:0; */
 }
 /* .nav-active{
  position: fixed;
@@ -626,8 +628,18 @@ textarea{    padding:2%;
    }
 }
 @media (max-width:614px) {
+    .privacy a{
+        font-size: 11px;
+    }
+    .home-left{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     .home-left h1{
-        font-size: 24px;
+        font-size: 20px;
+        width:300px;
         text-align: center;
     }
 }
